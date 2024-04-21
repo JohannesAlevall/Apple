@@ -1,0 +1,26 @@
+.announcement-bar {
+    width: 100%;
+    height: 52.5781px;
+
+    background-color: var(--site-color-01);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.announcement-bar-content {
+    color: white;
+    width: 80vw;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.announcement-bar-content a {
+    color: var(--site-color-02);
+}

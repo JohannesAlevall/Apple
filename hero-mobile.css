@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+    .hero-section {
+        height: 70vh;
+    }
+
+    .hero-section-middle-container {
+        top: 67vh;
+
+        font-size: 17px;
+    }
+
+    .hero-section-middle-container * {
+        transform: scale(0.8);
+    }
+
+    .hero-section-pause-button {
+        top: 73vh;
+        left: 86vw;
+        transform: scale(0.8);
+    }
+}

@@ -1,0 +1,33 @@
+.front-page-content {
+    width: 100%;
+    height: 650px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.front-page-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.front-page-grid {
+    display: grid;
+    width: 100%;
+    height: 2000px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.front-page-grid-item {
+
+    margin: 10px;
+}
+
+.front-page-grid-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

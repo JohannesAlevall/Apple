@@ -1,0 +1,14 @@
+:root {
+    --site-color-01: #1d1d1f;
+    --site-color-02: #0077ed;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}

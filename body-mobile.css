@@ -1,0 +1,8 @@
+@media screen and (max-width: 900px) {
+    .front-page-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    }
+
+    .front-page-grid .item {}
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px) {
+    .main-header-nav-list-desktop {
+        display: none;
+    }
+
+    .main-header-nav-list-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .main-header-nav-list-mobile a,
+    button {
+        color: var(--site-color-01);
+        margin: 0;
+        padding: 10px
+    }
+
+    .main-header-nav-list-mobile button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .header-nav-list-mobile-right-section {
+        display: flex;
+    }
+}
