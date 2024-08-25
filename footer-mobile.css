@@ -3,21 +3,27 @@
     display: none;
   }
 
-  .footer-container{
+  .footer-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .footer-container {
     width: 90%;
   }
 }
 
-.footer-mobile-list{
-    margin: 0;
-    padding: 0;
+.footer-mobile-list {
+  margin: 0;
+  padding: 0;
 }
 
-.footer-mobile-item{
-    width: 100%;
+.footer-mobile-item {
+  width: 100%;
 }
 
-.footer-mobile-item button{
+.footer-mobile-item button {
   background-color: transparent;
   border: none;
 
@@ -28,7 +34,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-div class="footer-mobile">
-          <ul class="footer-mobile-list">
-            <li class="footer-mobile-item"

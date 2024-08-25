@@ -71,7 +71,9 @@
 .footer-bottom-link-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 60%;
+  padding: 0;
 }
 
 .footer-bottom-link-list li:not(:last-child)::after {
