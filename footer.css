@@ -7,6 +7,9 @@
   align-items: center;
 }
 
+.footer-mobile {
+  display: none;
+}
 .footer-container {
   font-size: 12px;
   width: 65%;
