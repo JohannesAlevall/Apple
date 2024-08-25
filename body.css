@@ -1,33 +1,30 @@
 .front-page-content {
-    width: 100%;
-    height: 650px;
+  width: 100%;
+  height: 580px;
 
-    margin-top: 15px;
-    margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .front-page-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .front-page-grid {
-    display: grid;
-    width: 100%;
-    height: 2000px;
+  display: grid;
+  width: 100%;
 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.front-page-grid-item {
-
-    margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 580px 580px 580px;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .front-page-grid-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
